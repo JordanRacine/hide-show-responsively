@@ -31,7 +31,7 @@ img:nth-child(2), img:nth-child(4) {
 
 @media only screen and (min-width: 25em) {
 
-img {
+  img {
     width: 100%;
   }
 
@@ -51,17 +51,16 @@ img {
     width: 100%;
   }
 
-  img:nth-child(2), img:nth-child(3), img:nth-child(4) {
-      width: 32%;
-      display: inline-block;
-    }
-
-    img:first-child {
-      display: none;
-    }
-
+    img:nth-child(2), img:nth-child(3), img:nth-child(4) {
+    width: 32%;
+    display: inline-block;
   }
 
+  img:first-child {
+    display: none;
+  }
+
+}
 
 @media only screen and (min-width: 60em) {
 
